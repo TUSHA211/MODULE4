@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    background-color: #020202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-logo {
+    width: 244px;
+    height: 138px
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #629FFC;
+}
+
+#book-demo-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #629FFC;
+    border-radius: 20px;
+    border-color: white;
+    background: white;
+    width: 113px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#Pre-order-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    background: #629FFC;
+    width: 150px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.s1 {
+    background-color: rgba(98, 159, 252, 0.17);
+    height: 300px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px 0px 0px 20px
+}
+
+.s1 .head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+}
+
+.s1 .content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.btn1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #629FFC;
+    border-radius: 20px;
+    border-color: white;
+    background: white;
+    width: 113px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.btn2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    background: #629FFC;
+    width: 150px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.s2 {
+    background-color: rgba(98, 159, 252, 0.17);
+    height: 300px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.s3 {
+    background-color: rgba(98, 159, 252, 0.17);
+    height: 300px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.s4 {
+    background-color: rgba(98, 159, 252, 0.17);
+    height: 300px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+
+    font-family: 'Noteworthy';
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    font-size: 25px;
+}
+.social-links{
+    display:flex;
+    gap: 10px;
+    float: right;
+}
+
+@media screen and (max-width: 850) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 1.sem;
+    }
+
+    .header-logo {
+        font-size: 1.sem;
+    }
+
+    .header-cta {
+        display: none;
+    }
+
+    .nav-links {
+        font-size: 0.8em;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s2 {
+        display: none;
+    }
+
+    .s1>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        display: flex;
+    }
+
+    .form-input,
+    .form-input>input,
+    .form-input>textarea,
+    .user-name>div,
+    .submit-button {
+        width: 100%;
+    }
+
+    .user-name {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        gap: 0.5em;
+    }
+
+}
